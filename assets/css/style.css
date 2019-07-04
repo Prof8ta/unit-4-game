@@ -1,0 +1,98 @@
+* {
+
+    box-sizing: border-box;
+
+  }
+  
+  body {
+
+    background-image:url("../images/Taric_2.jpg");
+    background-size:cover;
+  
+  }
+
+  #game {
+
+    background:#c01aaa;
+    color:rgb(218, 161, 39);
+    width:300px;
+    height:120px;
+    font-size:35px;
+    text-align:center;
+    margin:20px 20px;
+    padding:10px;
+   
+  }
+ 
+  p {
+
+    margin:10px;
+    color:rgb(218, 161, 39);
+    font-size:25px;
+    
+  }
+
+  #computerScore {
+
+    width:180px;
+    height:100px;
+    margin:0;
+    color:rgb(218, 161, 39);
+    font-size:50px;
+    padding:20px;
+     
+  }
+
+  #userScore {
+
+    position:relative;
+    width:130px;
+    height:100px;
+    float:right;
+    top:-100px;
+    
+  }
+
+  .scoreContainer {
+
+    width:300px;
+    height:50;
+    margin:0px 20px;
+
+  }
+  
+  #userTotalScore {
+
+    width:200px;
+    height:40px;
+    background:#48129e;
+    padding:10px;
+    margin:20px 20px;
+    color:rgb(218, 161, 39);
+
+  }
+  
+  #userPoints {
+
+    width:200px;
+    height:100px;
+    margin:20px 20px;
+    color:rgb(218, 161, 39);
+    font-size:50px;
+    padding:20px;
+    
+  }
+  
+  .images {
+
+    display:inline-block;
+    margin:0 20px;
+   
+  }
+  
+  .images:hover{
+
+    cursor:pointer;
+    
+  }
+  
